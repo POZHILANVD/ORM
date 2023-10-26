@@ -38,7 +38,7 @@ class foodball_playerAdmin(admin.ModelAdmin):
     list_display=('p_name','p_age','p_country','p_email')
 ```
 
-Include your code here
+
 
 ## OUTPUT
 
