@@ -33,17 +33,17 @@ class foodball_player(models.Model):
     p_age=models.IntegerField()
     p_country=models.CharField(max_length=20)
     p_email=models.EmailField()
+    p_salary=models.IntegerField()
 
 class foodball_playerAdmin(admin.ModelAdmin):
-    list_display=('p_name','p_age','p_country','p_email')
+    list_display=('p_name','p_age','p_country','p_email','p_salary')
 ```
 
 
 
 ## OUTPUT
 
-![Alt text](<Screenshot (25).png>)
-
+![Alt text](<Screenshot (38).png>)
 
 ## RESULT
 Thus the program for creating a database using ORM hass been executed successfully
